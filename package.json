@@ -1,0 +1,14 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "learn nodejs project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bm295",
+  "license": "ISC",
+  "dependencies": {
+    "node-persist": "^2.1.0"
+  }
+}
