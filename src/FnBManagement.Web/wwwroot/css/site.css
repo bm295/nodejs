@@ -1,0 +1,52 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f8;
+  color: #1d2939;
+}
+
+.app-header {
+  background: #111827;
+  color: #fff;
+  padding: 1.25rem 2rem;
+}
+
+.container {
+  padding: 1.5rem 2rem;
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.kpi-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(16, 24, 40, 0.08);
+}
+
+.kpi-card.warning { border-left: 4px solid #f59e0b; }
+.kpi-card.success { border-left: 4px solid #16a34a; }
+.kpi-card h2 { margin: 0 0 0.4rem; font-size: 1rem; }
+.kpi-card p { margin: 0; font-size: 1.3rem; font-weight: 700; }
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(16, 24, 40, 0.08);
+}
